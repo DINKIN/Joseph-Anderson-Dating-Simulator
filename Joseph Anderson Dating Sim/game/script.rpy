@@ -67,7 +67,7 @@ label start:
         Matthew "I guess I need to drink bleach now"
         return
     label joestrokingit:
-        Joeseph "I haven't masturbated in 3 hours"
+        Joseph "I haven't masturbated in 3 hours"
         return
     label matthewirelandisbest:
         "These two lovebirds fucked all night" 
