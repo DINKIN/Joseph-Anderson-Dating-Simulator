@@ -1,6 +1,6 @@
 # Joseph-Anderson-Dating-Simulator
 
-This is a satirical visual novel built in Ren'Py based around the video game analyst  Joseph Anderson, and his romances with other game analysts.
+This is a satirical visual novel built in Ren'Py based around the video game analyst  Joseph Anderson, and his romances with other game analysts. There is a lot of profanity and filthy humor in this VN. If that upsets you, then don't play this game. 
 
 It's fine to copy my code (but why would you want to), just credit me. 
 
