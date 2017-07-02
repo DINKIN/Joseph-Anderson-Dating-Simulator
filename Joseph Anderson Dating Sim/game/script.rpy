@@ -6,6 +6,7 @@
 define Joseph = Character("Joseph Anderson")
 define George = Character("Super Bunnyhop")
 define Matthew = Character("Matthewmatosis")
+define Sean = Character("Sean Murray")
 
 # The game starts here.
 
@@ -16,8 +17,10 @@ label start:
     # images directory to show it.
     
     scene bg room 
-
-    "Today is a great day for shitposting...." 
+    
+    "Today, we're going to play a game regretfully made by SquidTheSid"
+    "On that note, today is a great day for shitposting...." 
+    
     
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -37,8 +40,8 @@ label start:
             jump georgenicesocks
         "Hey George, you make boring and unfunny videos.":
             jump georgeisboring
-        "Let's both get fucked by Nintendo.":
-            jump nintendoanalrape
+        "No Man's Sky is my favorite game":
+            jump seanhowardappears
         "I prefer Matthew 'only slightly racist' Matosis over you, baka!":
             jump matthewwhitesupremecist
             
@@ -48,11 +51,32 @@ label start:
     label georgeisboring:
         George "no u"
         return
-    label nintendoanalrape:
-        George "let's go off to Nintendo's creator concentration camps!" 
-        return
-    label matthewwhitesupremecist:
+    label seanhowardappears:
+        George "I still can't believe that I actually exist﻿"
         hide georgeanime
+        with dissolve
+        hide joe maid
+        with dissolve
+        hide bg room
+        with None
+        scene nomanssky
+        show joe maid at left
+        show sean murray at right
+        Sean "You are about to play No Man's Sky and I don't know what you'll think. I know I'm proud of it, I'm incredibly proud of the tiny team that is making a game at a scale that's never been done before." 
+        menu: 
+            "Should I kill Sean Murray?":
+                jump killmurray
+            "Or should I kiss him?":
+                jump kissmurray
+        label killmurray:
+            "Joseph plunges his massive horns into Murray's chest. Murray's fragile heart explodes as he sinks to the ground. His soul emanates from the corpse, approaching the sky for no men - which is DLC"
+            return
+        label kissmurray:
+            "You try to kiss Murray, but it turns out, this relationship is actually singleplayer and you can't interact with him. Also, Joe, what the fuck?"
+            return
+        
+        
+    label matthewwhitesupremecist:
         show matthewmatosis at right
         Matthew "This will be the terd date in my series of evenings where I try to sleep with you"
         menu:
@@ -63,15 +87,15 @@ label start:
             "I love me a good Irish game analyst. SIGN. ME. UP!!!!!!!!!!!!":
                 jump matthewirelandisbest
     
-    label matthewhentai:
-        Matthew "I guess I need to drink bleach now"
-        return
-    label joestrokingit:
-        Joseph "I haven't masturbated in 3 hours"
-        return
-    label matthewirelandisbest:
-        "These two lovebirds fucked all night" 
-        return
+        label matthewhentai:
+            Matthew "I guess I need to drink bleach now"
+            return
+        label joestrokingit:
+            Joseph "I haven't masturbated in 3 hours"
+            return
+        label matthewirelandisbest:
+            "These two lovebirds fucked all night" 
+            return
     # This ends the game.
 
     return

@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 70, in script
+    Joeseph "I haven't masturbated in 3 hours"
+Exception: Sayer 'Joeseph' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 70, in script
+    Joeseph "I haven't masturbated in 3 hours"
+  File "C:\Users\thete\Documents\Renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 593, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\thete\Documents\Renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 509, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'Joeseph' is not defined.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Joseph Anderson Dating Sim 1.0
