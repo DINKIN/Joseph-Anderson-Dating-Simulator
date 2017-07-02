@@ -1,0 +1,17 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 18: end of line expected.
+    scene bg room = "bg room.jpg"
+                  ^
+
+File "game/script.rpy", line 24: end of line expected.
+    show George anime = "georgeanime.png"
+                      ^
+
+File "game/script.rpy", line 25: end of line expected.
+    show Joe maid = "joe maid.png"
+                  ^
+
+Ren'Py Version: Ren'Py 6.99.12.4.2187
