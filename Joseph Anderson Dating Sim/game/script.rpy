@@ -7,6 +7,7 @@ define Joseph = Character("Joseph Anderson")
 define George = Character("Super Bunnyhop")
 define Matthew = Character("Matthewmatosis")
 define Sean = Character("Sean Murray")
+define Todd = Character("Todd Howard") 
 
 # The game starts here.
 
@@ -44,6 +45,8 @@ label start:
             jump seanhowardappears
         "I prefer Matthew 'only slightly racist' Matosis over you, baka!":
             jump matthewwhitesupremecist
+        "I want to be embraced by the strong arms of Todd Howard":
+            jump paidmodsreappear
             
     label georgenicesocks:
         George "Only 100 Canada bucks!"
@@ -96,6 +99,47 @@ label start:
         label matthewirelandisbest:
             "These two lovebirds fucked all night" 
             return
+            
+    label paidmodsreappear:
+        George "I still can't believe that I actually exist﻿"
+        hide georgeanime
+        with dissolve
+        hide joe maid
+        with dissolve
+        hide bg room
+        with None
+        scene fallout4
+        show joe maid at left
+        show toddhoward at right
+        Todd "you have to preorder my heart with $60 at the start"
+        menu: 
+                "Should I preorder Todd's heart?":
+                    jump preorderheart
+                "Or should I save up my money for paid mods?": 
+                    jump saveformods
+                "Or should I just kill Todd?":
+                    jump killtoddhoward
+                    
+        label preorderheart:
+            Todd "See That Mountain? You Can Climb It. Now preorder the season pass for my heart"
+            menu:
+                    "Should I preorder Todd's heart's season pass?":
+                        jump preorderheartseasonpass
+                    "Or should I not?":
+                        jump dontpreorderheartseasonpass
+        label saveformods:
+            "You're a shill that makes boring and unfunny videos. Grats."
+            return
+        label killtoddhoward:
+            "As you reach out to kill Howard, reallife.exe has crashed, meaning that you fall over and impale yourself on your own tail. Feels bad man. :( "
+            return
+        label preorderheartseasonpass:
+            "You're an even bigger shill that makes boring and unfunny videos. Double grats."
+            return
+        label dontpreorderheartseasonpass:
+            "Well, you're not a huge huge shill, but you're still a shill. And you still make boring and unfunny videos"
+            return
+            
     # This ends the game.
 
     return
