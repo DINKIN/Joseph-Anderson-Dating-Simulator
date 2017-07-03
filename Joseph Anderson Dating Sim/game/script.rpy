@@ -8,7 +8,7 @@ define George = Character("Super Bunnyhop")
 define Matthew = Character("Matthewmatosis")
 define Sean = Character("Sean Murray")
 define Todd = Character("Todd Howard") 
-
+define GeorgeSocks = Character("George Socks")
 # The game starts here.
 
 label start:
@@ -49,7 +49,11 @@ label start:
             jump paidmodsreappear
             
     label georgenicesocks:
-        George "Only 100 Canada bucks!"
+        George "I have been replaced by that which I have created. I am George no more, only his socks." 
+        hide georgeanime
+        with dissolve
+        show george socks at right
+        GeorgeSocks "Where is your God now?"
         return
     label georgeisboring:
         George "no u"
@@ -134,7 +138,8 @@ label start:
             "As you reach out to kill Howard, reallife.exe has crashed, meaning that you fall over and impale yourself on your own tail. Feels bad man. :( "
             return
         label preorderheartseasonpass:
-            "You're an even bigger shill that makes boring and unfunny videos. Double grats."
+            Todd "So Legendary Dragons are THAT hard?"
+            "Thus, Joseph and Todd Howard live happily ever after, at least until the new season pass appears"
             return
         label dontpreorderheartseasonpass:
             "Well, you're not a huge huge shill, but you're still a shill. And you still make boring and unfunny videos"
