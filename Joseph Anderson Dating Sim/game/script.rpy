@@ -9,6 +9,7 @@ define Matthew = Character("Matthewmatosis")
 define Sean = Character("Sean Murray")
 define Todd = Character("Todd Howard") 
 define GeorgeSocks = Character("George Socks")
+define SecondJoseph = Character("Joseph Anderson 2") 
 # The game starts here.
 
 label start:
@@ -47,6 +48,8 @@ label start:
             jump matthewwhitesupremecist
         "I want to be embraced by the strong arms of Todd Howard":
             jump paidmodsreappear
+        "I only love me, myself, and I": 
+            jump josephwaifu
             
     label georgenicesocks:
         George "I have been replaced by that which I have created. I am George no more, only his socks." 
@@ -101,7 +104,7 @@ label start:
             Joseph "I haven't masturbated in 3 hours"
             return
         label matthewirelandisbest:
-            "These two lovebirds fucked all night" 
+            "These three lovebirds fucked all night" 
             return
             
     label paidmodsreappear:
@@ -144,7 +147,16 @@ label start:
         label dontpreorderheartseasonpass:
             "Well, you're not a huge huge shill, but you're still a shill. And you still make boring and unfunny videos"
             return
-            
+         
+    label josephwaifu:
+        George "I still can't believe that I actually exist﻿"
+        hide georgeanime
+        with dissolve
+        show joseph 2 at right
+        SecondJoseph "We're alone now"
+        SecondJoseph "I too make boring and unfunny videos" 
+        SecondJoseph "Notice me, senpai! ~uguu" 
+        return
     # This ends the game.
 
     return
