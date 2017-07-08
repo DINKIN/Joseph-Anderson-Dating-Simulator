@@ -10,6 +10,8 @@ define Sean = Character("Sean Murray")
 define Todd = Character("Todd Howard") 
 define GeorgeSocks = Character("George Socks")
 define SecondJoseph = Character("Joseph Anderson 2") 
+define Noah = Character("Noah Caldwell Gervais") 
+
 # The game starts here.
 
 label start:
@@ -50,6 +52,8 @@ label start:
             jump paidmodsreappear
         "I only love me, myself, and I": 
             jump josephwaifu
+        "DOES JOE'S RIVAL APPEAR?":
+            jump noahnoaudio
             
     label georgenicesocks:
         George "I have been replaced by that which I have created. I am George no more, only his socks." 
@@ -157,6 +161,16 @@ label start:
         SecondJoseph "I too make boring and unfunny videos" 
         SecondJoseph "Notice me, senpai! ~uguu" 
         return
+        
+    label noahnoaudio:
+        George "I still can't believe that I actually exist﻿"
+        hide georgeanime
+        with dissolve
+        show noah calwel gervais at right 
+        Noah "Whats audio editing"
+        return 
+        
+        
     # This ends the game.
 
     return
