@@ -1,14 +1,14 @@
-Sat Jul 08 14:50:57 2017
+Wed Jul 19 01:37:36 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
  
 
 Bootstrap to the start of init.init took 0.06s
 Early init took 0.01s
-Loader init took 0.02s
+Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.06s
-Loading persistent took 0.00s
+Loading script took 0.07s
+Loading persistent took 0.01s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.07s
 Loading analysis data took 0.01s
@@ -30,7 +30,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.00s
+Interface start took 0.01s
 
 primary display bounds: (0, 0, 2560, 1440)
 Windowed mode.
@@ -416,16 +416,37 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.41799998283s
+Total time until interface ready: 1.49199986458s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.056000 seconds.
-- Frame drawn at 0.058000 seconds.
-- Frame drawn at 0.071000 seconds.
-- Frame drawn at 0.087000 seconds.
-- 0.087000 seconds to render 5 frames.
+- Frame drawn at 0.051000 seconds.
+- Frame drawn at 0.053000 seconds.
+- Frame drawn at 0.062000 seconds.
+- Frame drawn at 0.079000 seconds.
+- 0.079000 seconds to render 5 frames.
 Cleaning stores took 0.00s
-Init translation took 0.09s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
 Build styles took 0.01s
 Load screen analysis took 0.01s
 Analyze screens took 0.00s

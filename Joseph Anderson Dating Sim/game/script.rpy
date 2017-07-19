@@ -22,7 +22,7 @@ label start:
     
     scene bg room 
     
-    "Today, we're going to play a game regretfully made by SquidTheSid"
+    "Today, we're going to play a game regretfully made by SquidTheSid using Ren'Py"
     "On that note, today is a great day for shitposting...." 
     
     
@@ -38,6 +38,7 @@ label start:
     
     show georgeanime at right
     
+    # use youtube poop for super bunnyhop
     George "Buy my socks"
     menu:
         "Hey George, nice socks!":
