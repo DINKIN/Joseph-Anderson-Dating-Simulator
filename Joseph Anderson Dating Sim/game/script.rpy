@@ -49,7 +49,7 @@ label start:
         "No Man's Sky is my favorite game":
             jump seanhowardappears
         "I prefer Matthew 'only slightly racist' Matosis over you, baka!":
-            jump matthewwhitesupremecist
+            jump matthewwhsu
         "I want to be embraced by the strong arms of Todd Howard":
             jump paidmodsreappear
         "I only love me, myself, and I": 
@@ -85,32 +85,32 @@ label start:
             "Or should I kiss him?":
                 jump kissmurray
         label killmurray:
-            "Joseph plunges his massive horns into Murray's chest. Murray's fragile heart explodes as he sinks to the ground. His soul emanates from the corpse, approaching the sky for no men - which is DLC"
+            "This ending, much like the base ending for the game, is incomplete. To see the true ending to this route, you need to buy the DLC"
             return
         label kissmurray:
-            "You try to kiss Murray, but it turns out, this relationship is actually singleplayer and you can't interact with him. Also, Joe, what the fuck?"
+            "You try to kiss Murray, but it turns out, this relationship is actually singleplayer and you can't interact with him. Also, Joe, what is wrong with you?"
             return
         
         
-    label matthewwhitesupremecist:
+    label matthewwhsu:
         show matthewmatosis at right
         Matthew "This will be the terd date in my series of evenings where I try to sleep with you"
         menu:
             "I don't date white supremecists, baka-hentai!":
-                jump matthewhentai
+                jump matthewhen
             "No thanks, I'm still stroking it.":
-                jump joestrokingit
-            "I love me a good Irish game analyst. SIGN. ME. UP!!!!!!!!!!!!":
+                jump joestrokit
+            "SIGN. ME. UP!!!!!!!!!!!! xD xD xD":
                 jump matthewirelandisbest
     
-        label matthewhentai:
+        label matthewhen:
             Matthew "I guess I need to drink bleach now"
             return
-        label joestrokingit:
+        label joestrokit:
             Joseph "I haven't masturbated in 3 hours"
             return
         label matthewirelandisbest:
-            "These three lovebirds fucked all night" 
+            "These three lovebirds shared their innermost feelings about Dark Souls all night while Turbo Button watched in another room, left out :(" 
             return
             
     label paidmodsreappear:
@@ -198,7 +198,7 @@ label start:
         return 
         
     label animeisforjerks: 
-        SecondJoseph "your shitty anime" 
+        SecondJoseph "your bad anime" 
         Joseph "I am become anime, destroyer of worlds." 
         "And thus, Joseph destroys life, the universe, and everything to purge the very existence of the scourge known as anime." 
         return 
