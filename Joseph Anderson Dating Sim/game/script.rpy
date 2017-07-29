@@ -23,7 +23,7 @@ label start:
     scene bg room 
     
     "Today, we're going to play a game regretfully made by SquidTheSid using Ren'Py"
-    "On that note, today is a great day for shitposting...." 
+    "On that note, today is a great day for awful memes...." 
     
     
     # This shows a character sprite. A placeholder is used, but you can
@@ -161,6 +161,13 @@ label start:
         SecondJoseph "We're alone now"
         SecondJoseph "I too make boring and unfunny videos" 
         SecondJoseph "Notice me, senpai! ~uguu" 
+        menu: 
+            Joseph "You know when dogs eat their shit and then shit that shit out as "shit". Anime is that.": 
+                jump animeisforjerks 
+            Joseph "Your majestic tail is so kawaii desu~":
+                jump joetheweeb
+            Joseph "not enough futa":  
+                jump joeswife
         return
         
     label noahnoaudio:
@@ -168,9 +175,32 @@ label start:
         hide georgeanime
         with dissolve
         show noah calwel gervais at right 
-        Noah "Whats audio editing"
+        Noah "hi there HACK HACK jos COUGH COUGH UGH ehp"
+        Joseph "Well, I make bo.."
+        Noah "HACK HACK COUGH COUGH HACK HACK"
+        "And Noah coughed until the heat death of the universe, the end."
+        return
+    
+    label joeswife:
+        "Why are you putting futas in the game, what sort of madness are you creating" 
+        Joseph "futa is love, futa is life" 
+        "Can't argue with that logic, since he's married to one :/ " 
+        "Well, I'm creatively bankrupt, so this is all you get for now, dear reader." 
+        return
+        
+    label joetheweeb: 
+        Joseph "I'm so -kawaii- from the compliment! Konichiwa!"
+        SecondJoseph "Uguu desu uguu desu uguu" 
+        Joseph "we can be anime together forever" 
+        "And thus, the two lovebirds become one, forming an endless spiral of dragon tails, the anime. What am I doing with my life"
+        ":squid: :gun: " 
         return 
         
+    label animeisforjerks: 
+        SecondJoseph "your shitty anime" 
+        Joseph "I am become anime, destroyer of worlds." 
+        "And thus, Joseph destroys life, the universe, and everything to purge the very existence of the scourge known as anime." 
+        return 
         
     # This ends the game.
 
