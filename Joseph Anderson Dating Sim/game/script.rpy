@@ -23,6 +23,7 @@ label start:
     scene bg room 
     
     "Today, we're going to play a game regretfully made by SquidTheSid using Ren'Py"
+    "With character art done by roboseb" 
     "On that note, today is a great day for awful memes...." 
     
     
