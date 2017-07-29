@@ -35,7 +35,7 @@ label start:
     show joe maid at left
     # These display lines of dialogue.
 
-    Joseph "Hello, my name is Joseph Anderson and I make boring and unfunny videos."
+    Joseph "Hello, my name is Joseph Blanderson and I make boring and unfunny videos."
     
     show georgeanime at right
     
