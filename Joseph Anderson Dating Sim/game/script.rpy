@@ -62,7 +62,11 @@ label start:
         hide georgeanime
         with dissolve
         show george socks at right
-        GeorgeSocks "Where is your God now?"
+        GeorgeSocks "Why are we still here? Just to suffer?
+        GeorgeSocks "Every night, I can feel my leg... and my arm... even my fingers."
+        GeorgeSocks "The body I've lost... the comrades I've lost... won't stop hurting..." 
+        GeorgeSocks "It's like they're all still there. You feel it, too, don't you?" 
+        GeorgeSocks "I'm gonna make them give back our past."
         return
     label georgeisboring:
         George "no u"
