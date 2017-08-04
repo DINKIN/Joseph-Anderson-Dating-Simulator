@@ -1,0 +1,27 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+WindowsError: [Error 183] Cannot create a file when that file already exists
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\thete\Documents\Renpy\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "C:\Users\thete\Documents\Renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 490, in main
+    renpy.persistent.update(True)
+  File "C:\Users\thete\Documents\Renpy\renpy-6.99.12.4-sdk\renpy\persistent.py", line 378, in update
+    save()
+  File "C:\Users\thete\Documents\Renpy\renpy-6.99.12.4-sdk\renpy\persistent.py", line 393, in save
+    renpy.loadsave.location.save_persistent(data)
+  File "C:\Users\thete\Documents\Renpy\renpy-6.99.12.4-sdk\renpy\savelocation.py", line 463, in save_persistent
+    l.save_persistent(data)
+  File "C:\Users\thete\Documents\Renpy\renpy-6.99.12.4-sdk\renpy\savelocation.py", line 331, in save_persistent
+    safe_rename(fn_new, fn)
+  File "C:\Users\thete\Documents\Renpy\renpy-6.99.12.4-sdk\renpy\loadsave.py", line 204, in safe_rename
+    os.rename(old, new)
+WindowsError: [Error 183] Cannot create a file when that file already exists
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Joseph Anderson Dating Sim 1.0
