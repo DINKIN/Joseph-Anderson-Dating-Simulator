@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define Joseph = Character("Joseph Anderson")
+define Joseph = Character("Joseph Blanderson")
 define George = Character("Super Bunnyhop")
 define Matthew = Character("Matthewmatosis")
 define Sean = Character("Sean Murray")
@@ -11,6 +11,7 @@ define Todd = Character("Todd Howard")
 define GeorgeSocks = Character("George Socks")
 define SecondJoseph = Character("Josehp Anderson") 
 define Noah = Character("Noah Caldwell Gervais") 
+define Hamish = Character("Hamish Black") 
 
 # The game starts here.
 
@@ -60,6 +61,8 @@ label start:
             jump josephwaifu
         "DOES JOE'S RIVAL APPEAR?":
             jump noahnoaudio
+        "SCOTLAND YARD":
+            jump hamishshotthesheriff 
             
     label georgenicesocks:
         George "I have been replaced by that which I have created. I am George no more, only his socks." 
@@ -108,7 +111,7 @@ label start:
                 jump matthewhen
             "No thanks, I'm still stroking it.":
                 jump joestrokit
-            "SIGN. ME. UP!!!!!!!!!!!! xD xD xD":
+            "xD xD xD":
                 jump matthewirelandisbest
     
         label matthewhen:
@@ -209,6 +212,15 @@ label start:
         SecondJoseph "your bad anime" 
         Joseph "I am become anime, destroyer of worlds." 
         "And thus, Joseph destroys life, the universe, and everything to purge the very existence of the scourge known as anime." 
+        return 
+        
+    label hamishshotthesheriff:
+        George "I still can't believe that I actually exist﻿"
+        hide georgeanime
+        with dissolve
+        show hamishanime at right
+        Hamish "Hi, I'm Hamish Black, and Welcome to Writing on Games" 
+        "Intimidated by the sheer size of Hamish's muscles, Joseph Slowly leaves the room, and therefore, this game." 
         return 
         
     # This ends the game.
