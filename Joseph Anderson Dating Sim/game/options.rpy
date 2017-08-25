@@ -29,7 +29,10 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. To insert a blank line
 ## between paragraphs, write \n\n.
 
-define gui.about = _("")
+define gui.about = _(" Today, we will play a game regretfully made by SquidTheSid using Renpy \n"
+    "With character art done by roboseb \n" 
+    "And stock anime music by Sakagami Souichi (http://www.tandess.com/en/music/free-material/material.html) and Kevin Macleod (http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500014)"
+    "Note that this game is purely fictional and nothing claimed in this video is necessarily true. These characters are mere that, characters, and do not reflect the real life people they are based on.")
 
 
 ## A short name for the game used for executables and directories in the built
